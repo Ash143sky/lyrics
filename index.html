@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Vibes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e9dede; 
+            text-align: center;
+            padding-top: 50px;
+        }
+        h1 {
+            color: #a38e8e;
+            text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+        }
+        .lyrics {
+            margin-top: 20px;
+            font-style: italic;
+            text-align: left;
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        .lyrics h2 {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+        .lyrics p {
+            line-height: 1.6;
+        }
+        audio {
+            margin-top: 20px;
+            width: 100%;
+            max-width: 400px;
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Music Vibes</h1>
+    <p>Enjoy the vibe while coding!</p>
+
+    <audio controls autoplay loop>
+        <source src="80's makeout session.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="lyrics">
+        <h2>Lyrics</h2>
+        <p id="lyrics-display">
+            I wanna be somebody, somebody to you<br>
+            Let's count the stars and fly to the moon<br>
+            I'll make you feel special if you want me to<br>
+            Every thing I do, I do for you<br><br>
+
+            I can't express my admiration<br>
+            I hold to you, maybe its too bold to prove<br>
+            I wanna be somebody, somebody to you<br>
+            Hope you feel the way I do<br><br>
+
+            And I can't lie<br>
+            You have the sweetest eyes<br>
+            And I can't lie<br><br>
+
+            I want an 80's makeout session<br>
+            With lame chord progressions<br>
+            Damn, that's real depressin'<br>
+            Really makes me question<br>
+            Am I sad or do I just want your attention?<br>
+            Really lack affection, did I even mention<br>
+            Can't go a day without you? They say it's deprivation<br>
+            I call it dedication, maybe you're my sedation<br>
+            I wanna be with you for a hundred thousand days and<br>
+            Maybe you'll say yes, I hope I meet your expectations
+        </p>
+    </div>
+
+    <script>
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Enter') {
+                alert('You pressed Enter! Enjoy the song!');
+            }
+        });
+    </script>
+</body>
+</html>
+
